@@ -124,10 +124,6 @@ export default {
   align-items: center;
   display: flex;
 }
-.letters {
-  float: left;
-  margin-top: 20px;
-}
 .erase {
   width: 100%;
   height: 100px;
