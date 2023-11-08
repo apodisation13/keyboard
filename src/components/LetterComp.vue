@@ -33,7 +33,6 @@ export default {
 .letter {
   width: 100px;
   height: 100px;
-  //border: solid 2px yellow;
   font-size: 45pt;
   display: flex;
   justify-content: center;
