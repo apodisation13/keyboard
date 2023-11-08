@@ -22,7 +22,7 @@ export default {
 <template>
 <div
     class="letter"
-    :style="isVowel ? { color: 'red'} : { color: 'black'}"
+    :style="isVowel ? { color: 'red'} : { color: 'blue'}"
     @click="onClick(letter)"
 >
   {{ letter }}

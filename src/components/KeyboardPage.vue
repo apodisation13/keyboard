@@ -109,7 +109,7 @@ export default {
   border: solid 2px black;
   height: 200px;
   width: 70%;
-  font-size: 20pt;
+  font-size: 40pt;
   float: left;
   display: flex;
   padding: 2%;
