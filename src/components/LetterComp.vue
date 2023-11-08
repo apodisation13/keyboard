@@ -22,7 +22,7 @@ export default {
 <template>
 <div
     class="letter"
-    :style="isVowel ? { border: 'solid 2px red'} : { border: 'solid 2px black'}"
+    :style="isVowel ? { color: 'red'} : { color: 'black'}"
     @click="onClick(letter)"
 >
   {{ letter }}
@@ -31,12 +31,13 @@ export default {
 
 <style scoped>
 .letter {
-  width: 30px;
-  height: 50px;
-  font-size: 30pt;
+  width: 50px;
+  height: 100px;
+  font-size: 45pt;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 5px;
+  border: solid 2px black;
 }
 </style>
