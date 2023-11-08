@@ -31,9 +31,9 @@ export default {
 
 <style scoped>
 .letter {
-  width: 100px;
-  height: 100px;
-  font-size: 45pt;
+  width: 30px;
+  height: 50px;
+  font-size: 30pt;
   display: flex;
   justify-content: center;
   align-items: center;
